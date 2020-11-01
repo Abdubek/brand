@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="" />
+    <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contents/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contents/logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/WhatIsLogo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Content.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +33,12 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ja4p7qi3OsjtkWTJAvOcKcwZCH" />
   <component name="ProjectViewState">
@@ -28,6 +53,40 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,11 +96,38 @@
       <option name="presentableId" value="Default" />
       <updated>1604029050334</updated>
       <workItem from="1604029052159" duration="1253000" />
-      <workItem from="1604061048627" duration="759000" />
+      <workItem from="1604061048627" duration="8502000" />
+      <workItem from="1604145670668" duration="8959000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1659" height="222" key="GridCell.Tab.0.bottom" timestamp="1604168450529">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="222" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604168450529" />
+    <state width="1659" height="222" key="GridCell.Tab.0.center" timestamp="1604168450528">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="222" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604168450528" />
+    <state width="1659" height="222" key="GridCell.Tab.0.left" timestamp="1604168450527">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="222" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604168450527" />
+    <state width="1659" height="222" key="GridCell.Tab.0.right" timestamp="1604168450529">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="222" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604168450529" />
+    <state x="504" y="247" key="run.anything.popup" timestamp="1604212828839">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="504" y="247" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604212828839" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1604141439211">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604141439211" />
   </component>
 </project>
