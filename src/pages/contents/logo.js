@@ -5,6 +5,14 @@ import Head from "next/head";
 import Section from "../../components/Section";
 import {useScroll} from "../../hooks/useScroll";
 import WhatIsLogo from "../../sections/logo/WhatIsLogo";
+import BuildSystemIdea from "../../sections/logo/BuildSystemIdea";
+import BuildSystemMain from "../../sections/logo/BuildSystemMain";
+import BuildSystemMain2 from "../../sections/logo/BuildSystemMain2";
+import TypesOfLogo from "../../sections/logo/TypesOfLogo";
+import TypesOfLogo2 from "../../sections/logo/TypesOfLogo2";
+import BrandedColors from "../../sections/logo/BrandedColors";
+import BrandedColors2 from "../../sections/logo/BrandedColors2";
+import BrandedColors3 from "../../sections/logo/BrandedColors3";
 
 const data = [{
   title: 'что такое логотип',
@@ -17,49 +25,49 @@ const data = [{
   subtitle: 'идея',
   path: 'build-system',
   id: 'build-system',
-  content: WhatIsLogo
+  content: BuildSystemIdea
 }, {
   title: 'система построения',
   subtitle: 'основа',
   path: 'build-system',
   id: 'build-system-2',
-  content: WhatIsLogo
+  content: BuildSystemMain
 }, {
   title: 'система построения',
   subtitle: 'основа',
   path: 'build-system',
   id: 'build-system-3',
-  content: WhatIsLogo
+  content: BuildSystemMain2
 }, {
   title: 'виды логотипа',
   subtitle: 'варианты',
   path: 'types-of-logo',
   id: 'types-of-logo',
-  content: WhatIsLogo
+  content: TypesOfLogo
 }, {
   title: 'виды логотипа',
   subtitle: 'иконки специализации',
   path: 'types-of-logo',
   id: 'types-of-logo-2',
-  content: WhatIsLogo
+  content: TypesOfLogo2
 }, {
   title: 'фирменные цвета',
   subtitle: 'специализации',
   path: 'branded-colors',
   id: 'branded-colors',
-  content: WhatIsLogo
+  content: BrandedColors
 }, {
   title: 'фирменные цвета',
   subtitle: 'дополнительный',
   path: 'branded-colors',
   id: 'branded-colors-2',
-  content: WhatIsLogo
+  content: BrandedColors2
 }, {
   title: 'фирменные цвета',
   subtitle: 'пример школы',
   path: 'branded-colors',
   id: 'branded-colors-3',
-  content: WhatIsLogo
+  content: BrandedColors3
 }, {
   title: 'охранное поле',
   subtitle: null,
