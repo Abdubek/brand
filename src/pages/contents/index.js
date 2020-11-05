@@ -4,6 +4,7 @@ import styles from "../../styles/Content.module.css";
 import Collapse from 'rc-collapse'
 import { data as LogoData } from './logo'
 import Link from "next/link";
+import clsx from "clsx";
 
 const Contents = () => {
 
@@ -31,7 +32,7 @@ const Contents = () => {
             schools.appazov.net
           </div>
         </div>
-        <div className={styles.content}>
+        <div className={clsx(styles.content, 'mb-50')}>
           <div className={styles.designed}>
             designed by<br />
             appazov branding agency
