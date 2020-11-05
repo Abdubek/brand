@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img13.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img14.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img15.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedColors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedColors2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedColors3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/BuildSystemIdea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/BuildSystemMain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/BuildSystemMain2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/TypesOfLogo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/logo/TypesOfLogo2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedElements2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedFont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/BrandedFont2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/IllegalUse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/logo/ProtectiveField.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contents/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contents/logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/logo/BrandedColors3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/logo/BrandedColors3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Content.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +43,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sections/logo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -111,34 +95,59 @@
       <workItem from="1604061048627" duration="8502000" />
       <workItem from="1604145670668" duration="9579000" />
       <workItem from="1604295790866" duration="213000" />
-      <workItem from="1604501899434" duration="4093000" />
+      <workItem from="1604501899434" duration="4178000" />
+      <workItem from="1604555458873" duration="3080000" />
     </task>
+    <task id="LOCAL-00001" summary="add sections">
+      <created>1604528229981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604528229981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sections" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="332" key="GridCell.Tab.0.bottom" timestamp="1604254996037">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1604528229801">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="222" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604254777698" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1604528229801" />
+    <state width="1659" height="332" key="GridCell.Tab.0.bottom" timestamp="1604528245565">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="332" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604528245565" />
     <state width="1659" height="332" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1604254996037" />
-    <state width="1659" height="332" key="GridCell.Tab.0.center" timestamp="1604254996036">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="332" key="GridCell.Tab.0.center" timestamp="1604528245564">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="222" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604254777697" />
+    <state width="1659" height="332" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604528245564" />
     <state width="1659" height="332" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1604254996036" />
-    <state width="1659" height="332" key="GridCell.Tab.0.left" timestamp="1604254996035">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="332" key="GridCell.Tab.0.left" timestamp="1604528245564">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="222" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604254777696" />
+    <state width="1659" height="332" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604528245564" />
     <state width="1659" height="332" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1604254996035" />
-    <state width="1659" height="332" key="GridCell.Tab.0.right" timestamp="1604254996036">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="332" key="GridCell.Tab.0.right" timestamp="1604528245564">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="222" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604254777697" />
+    <state width="1659" height="332" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604528245564" />
     <state width="1659" height="332" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1604254996036" />
+    <state x="341" y="164" width="997" height="886" key="SettingsEditor" timestamp="1604565250184">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1604528231557">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604528231557" />
     <state x="504" y="247" key="run.anything.popup" timestamp="1604212828839">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

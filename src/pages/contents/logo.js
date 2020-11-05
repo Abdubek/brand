@@ -13,6 +13,12 @@ import TypesOfLogo2 from "../../sections/logo/TypesOfLogo2";
 import BrandedColors from "../../sections/logo/BrandedColors";
 import BrandedColors2 from "../../sections/logo/BrandedColors2";
 import BrandedColors3 from "../../sections/logo/BrandedColors3";
+import ProtectiveField from "../../sections/logo/ProtectiveField";
+import BrandedFont from "../../sections/logo/BrandedFont";
+import BrandedFont2 from "../../sections/logo/BrandedFont2";
+import BrandedElements from "../../sections/logo/BrandedElements";
+import BrandedElements2 from "../../sections/logo/BrandedElements2";
+import IllegalUse from "../../sections/logo/IllegalUse";
 
 const data = [{
   title: 'что такое логотип',
@@ -73,43 +79,37 @@ const data = [{
   subtitle: null,
   path: 'protective-field',
   id: 'protective-field',
-  content: WhatIsLogo
+  content: ProtectiveField
 }, {
   title: 'фирменный шрифт',
   subtitle: 'в логотипе',
   path: 'branded-font',
   id: 'branded-font',
-  content: WhatIsLogo
+  content: BrandedFont
 }, {
   title: 'фирменный шрифт',
   subtitle: 'в тексте',
   path: 'branded-font',
   id: 'branded-font-2',
-  content: WhatIsLogo
+  content: BrandedFont2
 }, {
   title: 'фирменные элементы',
   subtitle: 'паттерн',
   path: 'branded-elements',
   id: 'branded-elements',
-  content: WhatIsLogo
+  content: BrandedElements
 }, {
   title: 'фирменные элементы',
   subtitle: 'пример паттерна с цветом',
   path: 'branded-elements',
   id: 'branded-elements-2',
-  content: WhatIsLogo
+  content: BrandedElements2
 }, {
   title: 'недопустимое использование',
   subtitle: 'примеры',
   path: 'illegal-use',
   id: 'illegal-use',
-  content: WhatIsLogo
-}, {
-  title: 'недопустимое использование',
-  subtitle: 'примеры',
-  path: 'illegal-use',
-  id: 'illegal-use-2',
-  content: WhatIsLogo
+  content: IllegalUse
 }]
 
 const LogoPage = () => {

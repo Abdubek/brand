@@ -80,12 +80,24 @@ a {
 .flex-3 {
   flex: 3 3 0;
 }
+.width-25 {
+  width: 25%;
+}
 .width-50 {
   width: 50%;
 }
 .width-90 {
   width: 90%;
   display: inline-block;
+}
+.img-width-90 {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.width-100 {
+  width: 100%;
 }
 .mx-auto {
   margin-left: auto;
@@ -96,6 +108,18 @@ a {
   align-items: center;
   justify-content: center;
 }
+.mt-0 {
+  margin-top: 0;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
 .mb-50 {
   margin-bottom: 50px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.inline-block {
+  display: inline-block;
 }
