@@ -54,6 +54,14 @@
     margin-left: 30%;
     padding: 54px 54px 0 54px;
 }
+.content_title {
+    font-weight: 300;
+    font-size: 76px;
+    line-height: 94px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 130px;
+}
 .content_gray {
     background: #F7F7F7;
 }

@@ -37,6 +37,7 @@ const Contents = () => {
             appazov branding agency
           </div>
 
+          <span className={styles.content_title}>содержание</span>
           <Collapse
             className={styles.accordion}
             accordion={true}>
