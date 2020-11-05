@@ -123,3 +123,11 @@ a {
 .inline-block {
   display: inline-block;
 }
+.rc-collapse-item-active span {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+}
+.rc-collapse-content-box {
+  margin-top: 0 !important;
+}

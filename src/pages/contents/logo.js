@@ -19,8 +19,9 @@ import BrandedFont2 from "../../sections/logo/BrandedFont2";
 import BrandedElements from "../../sections/logo/BrandedElements";
 import BrandedElements2 from "../../sections/logo/BrandedElements2";
 import IllegalUse from "../../sections/logo/IllegalUse";
+import clsx from "clsx";
 
-const data = [{
+export const data = [{
   title: 'что такое логотип',
   subtitle: null,
   path: 'what-is-a-logo',
@@ -128,7 +129,8 @@ const LogoPage = () => {
         title='логотип'
         active={active}
         data={data} />
-      <div className={styles.content}>
+
+      <div className={clsx(styles.content, styles.content_gray)}>
         <div className={styles.designed}>
           designed by<br />
           appazov branding agency

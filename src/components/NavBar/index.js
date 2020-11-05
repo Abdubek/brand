@@ -30,6 +30,11 @@ const NavBar = ({ number, active, title, data }) => {
           ))}
         </ul>
       </div>
+      <div className={styles.navbar_footer}>
+        <a href='//schools.appazov.net' target='_blank'>
+          schools.appazov.net
+        </a>
+      </div>
     </nav>
   )
 }
