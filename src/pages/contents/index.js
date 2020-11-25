@@ -1,129 +1,54 @@
-import React from 'react';
+import React from 'react'
+import NavBar from "../../components/NavBar";
+import styles from '../../styles/Content.module.css'
 import Head from "next/head";
-import styles from "../../styles/Content.module.css";
-import Collapse from 'rc-collapse'
-import { data as LogoData } from './logo'
-import Link from "next/link";
+import Section from "../../components/Section";
 import clsx from "clsx";
+import WhatIsLogo from "../../sections/logo/WhatIsLogo";
+import BuildSystemIdea from "../../sections/logo/BuildSystemIdea";
+import BuildSystemMain from "../../sections/logo/BuildSystemMain";
 
-const Contents = () => {
+const data = [{
+  title: 'что такое логотип?',
+  subtitle: null,
+  path: 'what-is-a-logo',
+  component: WhatIsLogo
+}, {
+  title: 'система построения',
+  subtitle: 'идея',
+  path: 'build-system-1',
+  component: BuildSystemIdea
+}, {
+  title: 'система построения',
+  subtitle: 'основа',
+  path: 'build-system-2',
+  component: BuildSystemMain
+}]
 
-  const filteredData = LogoData.filter((item,index) => {
-    return index === LogoData.findIndex(obj => {
-      return obj.title === item.title;
-    });
-  });
-
+const LogoPage = () => {
   return (
-    <div>
+    <div className={styles.layout}>
       <Head>
-        <title>Contents | School Brandbook</title>
+        <title>Logo | School Brandbook</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.layout}>
-        <div className={styles.navbar}>
-          <div className={styles.navbar_subtitle}>
-            pavlodar schools<br />
-            brand identity guidline
-          </div>
-          <div className={styles.navbar_menu} />
-          <div className={styles.navbar_footer}>
-            schools.appazov.net
-          </div>
+      <NavBar />
+
+      <div className={clsx(styles.content, styles.content_gray)}>
+        <div className={styles.designed}>
+          designed by<br />
+          appazov branding agency
         </div>
-        <div className={clsx(styles.content, 'mb-50')}>
-          <div className={styles.designed}>
-            designed by<br />
-            appazov branding agency
-          </div>
+        {data.map(({ component: Component, ...props }) => (
+          <Section id={props.path} title={props.title} subtitle={props.subtitle}>
+            <Component />
+          </Section>
+        ))}
 
-          <span className={styles.content_title}>содержание</span>
-          <Collapse
-            className={styles.accordion}
-            accordion={true}>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='о проекте' number='01'/>}>
-              <div className={styles.accordion_content}>
-
-              </div>
-            </Collapse.Panel>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='логотип' number='02'/>}>
-              <div className={styles.accordion_content}>
-                <ul className={styles.accordion_menu}>
-                  {filteredData.map(item => (
-                    <li key={item.path}>
-                      <Link href={'/contents/logo#' + item.path}>
-                        <a>
-                          {item.title}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Collapse.Panel>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='фирменный стиль' number='03'/>}>
-              <div className={styles.accordion_content}>
-
-              </div>
-            </Collapse.Panel>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='навигация' number='04'/>}>
-              <div className={styles.accordion_content}>
-
-              </div>
-            </Collapse.Panel>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='благоустройство' number='05'/>}>
-              <div className={styles.accordion_content}>
-
-              </div>
-            </Collapse.Panel>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='экстерьер' number='06'/>}>
-              <div className={styles.accordion_content}>
-
-              </div>
-            </Collapse.Panel>
-            <Collapse.Panel
-              headerClass={styles.accordion_header}
-              showArrow={false}
-              header={<CollapseHeader title='интерьер' number='07'/>}>
-              <div className={styles.accordion_content}>
-
-              </div>
-            </Collapse.Panel>
-          </Collapse>
-        </div>
-      </main>
-    </div>
-  );
-};
-
-const CollapseHeader = ({ title, number }) => {
-  return (
-    <div className={styles.accordion_header}>
-      <span className={styles.accordion_header_number}>
-        {number}
-      </span>
-      {title}
+      </div>
     </div>
   )
 }
 
-export default Contents;
+export default LogoPage

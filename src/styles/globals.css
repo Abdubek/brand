@@ -124,11 +124,20 @@ a {
 .inline-block {
   display: inline-block;
 }
-.rc-collapse-item-active span {
+/*.rc-collapse-item-active span {
   font-weight: 500;
   font-size: 42px;
   line-height: 52px;
-}
+}*/
 .rc-collapse-content-box {
   margin-top: 0 !important;
+}
+.rc-collapse > .rc-collapse-item {
+  border-top: none !important;
+}
+.rc-collapse-content {
+  padding: 0 40px !important;
+}
+.rc-collapse-content > .rc-collapse-content-box {
+  margin-bottom: 0 !important;
 }
