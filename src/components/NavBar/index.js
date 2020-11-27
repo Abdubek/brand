@@ -253,11 +253,9 @@ const NavBar = () => {
                         headerClass={styles.accordion_nav_bar_header_submenu}
                         showArrow={false}
                         header={
-                          <a href={'#' + submenu?.child[0].path}>
-                            <div className={styles.accordion_nav_bar_header_submenu_menu} key={index}>
-                              {submenu.title}
-                            </div>
-                          </a>
+                          <div className={styles.accordion_nav_bar_header_submenu_menu} key={index}>
+                            {submenu.title}
+                          </div>
                         }>
                         {submenu?.child?.map((child, childkey) => (
                           <a href={'#' + child.path}>

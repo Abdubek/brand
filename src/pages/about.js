@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from "next/head";
 import styles from "../styles/Content.module.css";
-import Collapse from "rc-collapse";
-import Link from "next/link";
 import clsx from "clsx";
 
 const AboutPage = () => {

@@ -6,7 +6,7 @@ export const useScroll = (init, data, setter) => {
   useEffect(() => {
     const handleScrollListener = () => {
       let height = window.innerHeight
-      if (height < 800) height = 800
+      if (height < 900) height = 900
       const index = Math.floor(window.pageYOffset / height)
       setActive(setter(data[index]))
     }
