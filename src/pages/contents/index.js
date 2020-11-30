@@ -63,6 +63,8 @@ import Hoodie2 from "../../sections/brand/Hoodie2";
 import Bag from "../../sections/brand/Bag";
 import Sweatshirts from "../../sections/brand/Sweatshirts";
 import Sweatshirts2 from "../../sections/brand/Sweatshirts2";
+import Clock from "../../sections/brand/Clock";
+import Signboard from "../../sections/navigation/Signboard";
 
 const data = [{
   title: 'что такое логотип?',
@@ -359,6 +361,16 @@ const data = [{
   subtitle: 'свитшот',
   path: 'clothes-and-accessories-8-1',
   component: Sweatshirts2
+}, {
+  title: 'сувенирная продукция',
+  subtitle: 'часы',
+  path: 'souvenir-products-1',
+  component: Clock
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br/> вариант`,
+  path: 'souvenir-products-1',
+  component: Signboard
 }]
 
 const LogoPage = () => {

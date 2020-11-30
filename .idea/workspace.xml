@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Badge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Bag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Cap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Cap2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/ChildGlass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/ChildTShirt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/EcoBag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Flagpole.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Glass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Hoodie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Hoodie2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Pennant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/PressWall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/RollUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Sweatshirts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Sweatshirts2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Tshirt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Сase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Signboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contents/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +105,7 @@
       <workItem from="1606409735789" duration="1107000" />
       <workItem from="1606483731594" duration="3493000" />
       <workItem from="1606726024364" duration="2157000" />
-      <workItem from="1606733821839" duration="5639000" />
+      <workItem from="1606733821839" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
@@ -176,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606741735823</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add sections">
+      <created>1606743734656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606743734656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,10 +185,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add sections" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606741735550">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606743734496">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606741735550" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606743734496" />
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606501385983" />
     <state width="1659" height="371" key="GridCell.Tab.0.bottom" timestamp="1606736308349">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -224,10 +218,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
-    <state x="440" y="269" key="Vcs.Push.Dialog.v2" timestamp="1606741923037">
+    <state x="440" y="269" key="Vcs.Push.Dialog.v2" timestamp="1606743765188">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606741923037" />
+    <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606743765188" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606412126535" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943/-1920.-570.1920.1057@0.23.1680.943" timestamp="1606741776746" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1606504078565" />

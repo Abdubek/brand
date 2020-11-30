@@ -169,6 +169,7 @@ const data = [{
     }]
   }, {
     title: 'сувенирная продукция',
+    path: 'souvenir-products-1',
     child: [{
       title: 'часы',
       path: 'souvenir-products-1'
