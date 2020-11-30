@@ -65,6 +65,13 @@ import Sweatshirts from "../../sections/brand/Sweatshirts";
 import Sweatshirts2 from "../../sections/brand/Sweatshirts2";
 import Clock from "../../sections/brand/Clock";
 import Signboard from "../../sections/navigation/Signboard";
+import Case from "../../sections/brand/Case";
+import Diary from "../../sections/brand/Diary";
+import Package from "../../sections/brand/Package";
+import Sticker from "../../sections/brand/Sticker";
+import Cup from "../../sections/brand/Cup";
+import Post from "../../sections/brand/Post";
+import Story from "../../sections/brand/Story";
 
 const data = [{
   title: 'что такое логотип?',
@@ -366,6 +373,41 @@ const data = [{
   subtitle: 'часы',
   path: 'souvenir-products-1',
   component: Clock
+}, {
+  title: 'сувенирная продукция',
+  subtitle: 'чехол',
+  path: 'souvenir-products-2',
+  component: Case
+}, {
+  title: 'сувенирная продукция',
+  subtitle: 'ежедневник',
+  path: 'souvenir-products-3',
+  component: Diary
+}, {
+  title: 'сувенирная продукция',
+  subtitle: 'пакет',
+  path: 'souvenir-products-4',
+  component: Package
+}, {
+  title: 'сувенирная продукция',
+  subtitle: 'стикеры',
+  path: 'souvenir-products-5',
+  component: Sticker
+}, {
+  title: 'сувенирная продукция',
+  subtitle: 'кружка',
+  path: 'souvenir-products-6',
+  component: Cup
+}, {
+  title: 'социальные сети',
+  subtitle: 'пост в инстаграм',
+  path: 'social-networks-1',
+  component: Post
+}, {
+  title: 'социальные сети',
+  subtitle: 'сториз в инстаграм',
+  path: 'social-networks-2',
+  component: Story
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br/> вариант`,

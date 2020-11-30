@@ -191,6 +191,7 @@ const data = [{
     }]
   }, {
     title: 'социальные сети',
+    path: 'social-networks-1',
     child: [{
       title: 'пост в инстаграмм',
       path: 'social-networks-1'
