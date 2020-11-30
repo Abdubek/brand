@@ -65,6 +65,22 @@ import Sweatshirts from "../../sections/brand/Sweatshirts";
 import Sweatshirts2 from "../../sections/brand/Sweatshirts2";
 import Clock from "../../sections/brand/Clock";
 import Signboard from "../../sections/navigation/Signboard";
+import Signboard2 from "../../sections/navigation/Signboard2";
+import Signboard3 from "../../sections/navigation/Signboard3";
+import Signboard4 from "../../sections/navigation/Signboard4";
+import Signboard5 from "../../sections/navigation/Signboard5";
+import Signboard8 from "../../sections/navigation/Signboard8";
+import Signboard7 from "../../sections/navigation/Signboard7";
+import Signboard6 from "../../sections/navigation/Signboard6";
+import Flagpoles from "../../sections/navigation/Flagpoles";
+import Flagpoles1 from "../../sections/navigation/Flagpoles1";
+import SteleWithClock from "../../sections/navigation/SteleWithClock";
+import SteleWithClock2 from "../../sections/navigation/SteleWithClock2";
+import SteleWithClock3 from "../../sections/navigation/SteleWithClock3";
+import SteleWithInteractiveScreen from "../../sections/navigation/SteleWithInteractiveScreen";
+import SteleWithInteractiveScreen2 from "../../sections/navigation/SteleWithInteractiveScreen2";
+import SteleWithInteractiveScreen3 from "../../sections/navigation/SteleWithInteractiveScreen3";
+import Pointer from "../../sections/navigation/Pointer";
 
 const data = [{
   title: 'что такое логотип?',
@@ -368,11 +384,95 @@ const data = [{
   component: Clock
 }, {
   title: 'внешняя навигация',
-  subtitle: `вывеска<br/> вариант`,
+  subtitle: `вывеска<br />вариант 1. фибробетонный козырек`,
   path: 'souvenir-products-1',
   component: Signboard
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />вариант 1. фибробетонный козырек`,
+  path: 'souvenir-products-1',
+  component: Signboard2
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />объемно-световая вывеска`,
+  path: 'souvenir-products-1',
+  component: Signboard3
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />объемно-световая вывеска`,
+  path: 'souvenir-products-1',
+  component: Signboard4
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />  размещение паспорта школы`,
+  path: 'souvenir-products-1',
+  component: Signboard5
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />вариант 2 объемная световая вывеска`,
+  path: 'souvenir-products-1',
+  component: Signboard6
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />вариант 2 объемная световая вывеска`,
+  path: 'souvenir-products-1',
+  component: Signboard7
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />состав конструкции`,
+  path: 'souvenir-products-1',
+  component: Signboard8
+}, {
+  title: 'внешняя навигация',
+  subtitle: `вывеска<br />  размещение паспорта школы`,
+  path: 'souvenir-products-1',
+  component: Signboard5
+}, {
+  title: 'внешняя навигация',
+  subtitle: `флагштоки`,
+  path: 'souvenir-products-1',
+  component: Flagpoles
+}, {
+  title: 'внешняя навигация',
+  subtitle: `флагштоки`,
+  path: 'souvenir-products-1',
+  component: Flagpoles1
+}, {
+  title: 'внешняя навигация',
+  subtitle: `стелла с часами <br />вариант 1`,
+  path: 'souvenir-products-1',
+  component: SteleWithClock
+}, {
+  title: 'внешняя навигация',
+  subtitle: `стелла с часами <br />конструктив`,
+  path: 'souvenir-products-1',
+  component: SteleWithClock2
+}, {
+  title: 'внешняя навигация',
+  subtitle: `стелла с часами <br />конструктив светового логотипа`,
+  path: 'souvenir-products-1',
+  component: SteleWithClock3
+}, {
+  title: 'внешняя навигация',
+  subtitle: `стелла с интерактивным экраном<br />вариант 2`,
+  path: 'souvenir-products-1',
+  component: SteleWithInteractiveScreen
+}, {
+  title: 'внешняя навигация',
+  subtitle: `стелла с интерактивным экраном<br />конструктив`,
+  path: 'souvenir-products-1',
+  component: SteleWithInteractiveScreen2
+}, {
+  title: 'внешняя навигация',
+  subtitle: `стелла с интерактивным экраном<br />конструктив светового логотипа`,
+  path: 'souvenir-products-1',
+  component: SteleWithInteractiveScreen3
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `указатели`,
+  path: 'souvenir-products-1',
+  component: Pointer
 }]
-
 const LogoPage = () => {
   return (
     <div className={styles.layout}>
