@@ -70,6 +70,7 @@ const data = [{
   path: 'brand-style',
   child: [{
     title: 'деловая документация',
+    path: 'business-documentation',
     child: [{
       title: 'визитка именная',
       path: 'business-documentation-1'
@@ -100,6 +101,7 @@ const data = [{
     }]
   }, {
     title: 'представительская продукция',
+    path: 'representative-products-1',
     child: [{
       title: 'флешка',
       path: 'representative-products-1'
@@ -253,9 +255,11 @@ const NavBar = () => {
                         headerClass={styles.accordion_nav_bar_header_submenu}
                         showArrow={false}
                         header={
-                          <div className={styles.accordion_nav_bar_header_submenu_menu} key={index}>
-                            {submenu.title}
-                          </div>
+                          <a href={'#' + submenu.path}>
+                            <div className={styles.accordion_nav_bar_header_submenu_menu} key={index}>
+                              {submenu.title}
+                            </div>
+                          </a>
                         }>
                         {submenu?.child?.map((child, childkey) => (
                           <a href={'#' + child.path}>

@@ -20,6 +20,32 @@ import BrandedFont2 from "../../sections/logo/BrandedFont2";
 import BrandedElements from "../../sections/logo/BrandedElements";
 import BrandedElements2 from "../../sections/logo/BrandedElements2";
 import IllegalUse from "../../sections/logo/IllegalUse";
+import BrandExample from "../../sections/brand/Example";
+import BrandExample2 from "../../sections/brand/Example2";
+import BrandExample3 from "../../sections/brand/Example3";
+import BrandExample4 from "../../sections/brand/Example4";
+import BrandExample5 from "../../sections/brand/Example5";
+import BrandExample6 from "../../sections/brand/Example6";
+import BrandExample7 from "../../sections/brand/Example7";
+import BrandExample8 from "../../sections/brand/Example8";
+import BrandExample9 from "../../sections/brand/Example9";
+import BrandExample10 from "../../sections/brand/Example10";
+import PersonalCard from "../../sections/brand/PersonalCard";
+import CorpCard from "../../sections/brand/CorpCard";
+import BrandBlank from "../../sections/brand/BrandBlank";
+import Convert from "../../sections/brand/Convert";
+import WhiteFolder from "../../sections/brand/WhiteFolder";
+import ColoredFolder from "../../sections/brand/ColoredFolder";
+import Diploma from "../../sections/brand/Diploma";
+import Letter from "../../sections/brand/Letter";
+import PresentationTemplate from "../../sections/brand/PresentationTemplate";
+import FlashCard from "../../sections/brand/FlashCard";
+import Pencil from "../../sections/brand/Pencil";
+import Notebook from "../../sections/brand/Notebook";
+import Notebook2 from "../../sections/brand/Notebook2";
+import Flyer from "../../sections/brand/Flyer";
+import Poster from "../../sections/brand/Poster";
+import Flag from "../../sections/brand/Flag";
 
 const data = [{
   title: 'что такое логотип?',
@@ -101,13 +127,143 @@ const data = [{
   subtitle: 'примеры',
   path: 'illegal-use-1',
   component: IllegalUse
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample2
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample3
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample4
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample5
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample6
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample7
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample8
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample9
+}, {
+  title: 'примеры',
+  subtitle: 'фирменных элементов',
+  path: 'business-documentation',
+  component: BrandExample10
+}, {
+  title: 'деловая документация',
+  subtitle: 'визитка именная',
+  path: 'business-documentation-1',
+  component: PersonalCard
+}, {
+  title: 'деловая документация',
+  subtitle: 'визитка корпоративная',
+  path: 'business-documentation-2',
+  component: CorpCard
+}, {
+  title: 'деловая документация',
+  subtitle: 'фирменный бланк',
+  path: 'business-documentation-3',
+  component: BrandBlank
+}, {
+  title: 'деловая документация',
+  subtitle: 'евроконверт',
+  path: 'business-documentation-4',
+  component: Convert
+}, {
+  title: 'деловая документация',
+  subtitle: 'белая папка',
+  path: 'business-documentation-5',
+  component: WhiteFolder
+}, {
+  title: 'деловая документация',
+  subtitle: 'цветная папка',
+  path: 'business-documentation-6',
+  component: ColoredFolder
+}, {
+  title: 'деловая документация',
+  subtitle: 'грамота',
+  path: 'business-documentation-7',
+  component: Diploma
+}, {
+  title: 'деловая документация',
+  subtitle: 'благодарственное письмо',
+  path: 'business-documentation-8',
+  component: Letter
+}, {
+  title: 'деловая документация',
+  subtitle: 'шаблон презентации',
+  path: 'business-documentation-9',
+  component: PresentationTemplate
+}, {
+  title: 'представительская продукция',
+  subtitle: 'флешка',
+  path: 'representative-products-1',
+  component: FlashCard
+}, {
+  title: 'представительская продукция',
+  subtitle: 'ручка',
+  path: 'representative-products-2',
+  component: Pencil
+}, {
+  title: 'представительская продукция',
+  subtitle: 'блокнот',
+  path: 'representative-products-3',
+  component: Notebook
+}, {
+  title: 'представительская продукция',
+  subtitle: 'блокнот',
+  path: 'representative-products-3-1',
+  component: Notebook2
+}, {
+  title: 'представительская продукция',
+  subtitle: 'флаер',
+  path: 'representative-products-4',
+  component: Flyer
+}, {
+  title: 'представительская продукция',
+  subtitle: 'плакат',
+  path: 'representative-products-5',
+  component: Poster
+}, {
+  title: 'представительская продукция',
+  subtitle: 'уличный флаг',
+  path: 'representative-products-6',
+  component: Flag
 }]
 
 const LogoPage = () => {
   return (
     <div className={styles.layout}>
       <Head>
-        <title>Logo | School Brandbook</title>
+        <title>School Brandbook</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -23,7 +23,7 @@ export default function Home() {
             <li><Link href='/'><a>Главная</a></Link></li>
             <li><Link href='/'><a>Приветственное слово</a></Link></li>
             <li><Link href='/'><a>Содержание</a></Link></li>
-            <li><Link href='/main'><a>Брендбук</a></Link></li>
+            <li><Link href='/contents'><a>Брендбук</a></Link></li>
             <li><Link href='/'><a>Контакты</a></Link></li>
           </ul>
         </div>
