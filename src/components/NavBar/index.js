@@ -141,6 +141,7 @@ const data = [{
     }]
   }, {
     title: 'одежда и аксессуары',
+    path: 'clothes-and-accessories-1',
     child: [{
       title: 'футболка',
       path: 'clothes-and-accessories-1'

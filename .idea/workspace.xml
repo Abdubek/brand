@@ -2,38 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/BrandBlank.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/ColoredFolder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Convert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/CorpCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Diploma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Example9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Flag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/FlashCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Flyer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Letter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Notebook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Notebook2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Pencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/PersonalCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/Poster.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/PresentationTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/brand/WhiteFolder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Badge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Bag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Cap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Cap2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/ChildGlass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/ChildTShirt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/EcoBag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Flagpole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Glass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Hoodie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Hoodie2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Pennant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/PressWall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/RollUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Sweatshirts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Sweatshirts2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/brand/Tshirt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/logo/BrandedElements2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/logo/BrandedElements2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +118,7 @@
       <workItem from="1606409735789" duration="1107000" />
       <workItem from="1606483731594" duration="3493000" />
       <workItem from="1606726024364" duration="2157000" />
-      <workItem from="1606733821839" duration="3699000" />
+      <workItem from="1606733821839" duration="5639000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
@@ -181,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606501386300</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add sections">
+      <created>1606741735823</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606741735823</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +191,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add sections" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606501385983">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606741735550">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606392448234" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606741735550" />
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606501385983" />
     <state width="1659" height="371" key="GridCell.Tab.0.bottom" timestamp="1606736308349">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -229,10 +224,12 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606504078565">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state x="440" y="269" key="Vcs.Push.Dialog.v2" timestamp="1606741923037">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606741923037" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606412126535" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943/-1920.-570.1920.1057@0.23.1680.943" timestamp="1606741776746" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1606504078565" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606412210593">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -242,9 +239,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="345" y="280" width="1335" height="490" key="find.popup/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606402941440" />
-    <state x="504" y="247" key="run.anything.popup" timestamp="1604212828839">
+    <state x="504" y="247" key="run.anything.popup" timestamp="1606743495337">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="504" y="247" key="run.anything.popup/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606743495337" />
     <state x="504" y="247" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604212828839" />
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1606736356360">
       <screen x="0" y="0" width="1680" height="1050" />

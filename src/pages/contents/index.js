@@ -46,6 +46,23 @@ import Notebook2 from "../../sections/brand/Notebook2";
 import Flyer from "../../sections/brand/Flyer";
 import Poster from "../../sections/brand/Poster";
 import Flag from "../../sections/brand/Flag";
+import PressWall from "../../sections/brand/PressWall";
+import RollUp from "../../sections/brand/RollUp";
+import Flagpole from "../../sections/brand/Flagpole";
+import Pennant from "../../sections/brand/Pennant";
+import Glass from "../../sections/brand/Glass";
+import ChildGlass from "../../sections/brand/ChildGlass";
+import Tshirt from "../../sections/brand/Tshirt";
+import ChildTShirt from "../../sections/brand/ChildTShirt";
+import Cap from "../../sections/brand/Cap";
+import Cap2 from "../../sections/brand/Cap2";
+import Badge from "../../sections/brand/Badge";
+import EcoBag from "../../sections/brand/EcoBag";
+import Hoodie from "../../sections/brand/Hoodie";
+import Hoodie2 from "../../sections/brand/Hoodie2";
+import Bag from "../../sections/brand/Bag";
+import Sweatshirts from "../../sections/brand/Sweatshirts";
+import Sweatshirts2 from "../../sections/brand/Sweatshirts2";
 
 const data = [{
   title: 'что такое логотип?',
@@ -257,6 +274,91 @@ const data = [{
   subtitle: 'уличный флаг',
   path: 'representative-products-6',
   component: Flag
+}, {
+  title: 'представительская продукция',
+  subtitle: 'пресс стена',
+  path: 'representative-products-7',
+  component: PressWall
+}, {
+  title: 'представительская продукция',
+  subtitle: 'ролл ап стена',
+  path: 'representative-products-8',
+  component: RollUp
+}, {
+  title: 'представительская продукция',
+  subtitle: 'флагшток',
+  path: 'representative-products-9',
+  component: Flagpole
+}, {
+  title: 'представительская продукция',
+  subtitle: 'вымпел',
+  path: 'representative-products-10',
+  component: Pennant
+}, {
+  title: 'представительская продукция',
+  subtitle: 'стаканчик для кофе',
+  path: 'representative-products-11',
+  component: Glass
+}, {
+  title: 'представительская продукция',
+  subtitle: 'стаканчик для детей',
+  path: 'representative-products-12',
+  component: ChildGlass
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'футболка',
+  path: 'clothes-and-accessories-1',
+  component: Tshirt
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'футболка детская',
+  path: 'clothes-and-accessories-2',
+  component: ChildTShirt
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'кепка',
+  path: 'clothes-and-accessories-3',
+  component: Cap
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'кепка',
+  path: 'clothes-and-accessories-3-1',
+  component: Cap2
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'значок',
+  path: 'clothes-and-accessories-4',
+  component: Badge
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'экосумка',
+  path: 'clothes-and-accessories-5',
+  component: EcoBag
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'худи',
+  path: 'clothes-and-accessories-6',
+  component: Hoodie
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'худи',
+  path: 'clothes-and-accessories-6-1',
+  component: Hoodie2
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'рюкзак',
+  path: 'clothes-and-accessories-7',
+  component: Bag
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'свитшот',
+  path: 'clothes-and-accessories-8',
+  component: Sweatshirts
+}, {
+  title: 'одежда и аксессуары',
+  subtitle: 'свитшот',
+  path: 'clothes-and-accessories-8-1',
+  component: Sweatshirts2
 }]
 
 const LogoPage = () => {
