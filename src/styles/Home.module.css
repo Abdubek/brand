@@ -302,6 +302,12 @@
     color: #0E2C42;
 }
 
+.embody_cont p:first-child{
+    width: 100px;
+}
+.embody_cont p:nth-child(2){
+    width: 200px;
+}
 .question {
     margin: 90px 130px;
 }

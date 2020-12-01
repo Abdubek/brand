@@ -293,8 +293,8 @@ const NavBar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar_subtitle}>
-        pavlodar schools<br />
-        brand identity guidline
+        брендбук школ<br />
+        павлодарской области
       </div>
       <div className={styles.navbar_menu}>
         <Collapse
@@ -354,8 +354,8 @@ const NavBar = () => {
         </Collapse>
       </div>
       <div className={styles.navbar_footer}>
-        <a href='//schools.appazov.net' target='_blank'>
-          schools.appazov.net
+        <a href='//z-mektep.kz' target='_blank'>
+          z-mektep.kz
         </a>
       </div>
     </nav>

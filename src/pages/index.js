@@ -16,15 +16,19 @@ export default function Home() {
       <div className={styles.logo_menu}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <a href="">pavlodar schools<br/>
-              brand identity guidline</a>
+            <Link href='/'>
+              <a>
+                брендбук школ<br/>
+                павлодарской области
+              </a>
+            </Link>
           </div>
           <ul>
             <li><Link href='/'><a>Главная</a></Link></li>
-            <li><Link href='/'><a>Приветственное слово</a></Link></li>
-            <li><Link href='/'><a>Содержание</a></Link></li>
+            <li><a href='#welcome'>Приветственное слово</a></li>
+            <li><a href='#contents'>Содержание</a></li>
             <li><Link href='/contents'><a>Брендбук</a></Link></li>
-            <li><Link href='/'><a>Контакты</a></Link></li>
+            <li><a href='#contacts'>Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -32,12 +36,12 @@ export default function Home() {
       <div className={styles.header}>
         <div className={styles.container}>
           <h1>смелый и<br/>правильный<br/>взгяд на школы</h1>
-          <a className={styles.btn_pav} href="#">посмотреть брендбук</a>
+          <Link href='/contents'><a className={styles.btn_pav} href="#">посмотреть брендбук</a></Link>
           <div className={styles.header_img}><img src="/img/h-img.png" alt="" /></div>
         </div>
       </div>
 
-      <div className={styles.container}>
+      <div id='welcome' className={styles.container}>
         <div className={clsx(styles.word_akim, styles.word)}>
           <div>
             <h6 className={styles.text_span}>приветственное слово акима области</h6>
@@ -189,7 +193,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.content}>
+        <div id='contents' className={styles.content}>
           <h6 className={styles.text_span}>содержание</h6>
           <div className={styles.content_block}>
             <div className={styles.blocks}>
@@ -301,7 +305,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.question}>
+        <div id='contacts' className={styles.question}>
           <h6 className={styles.text_span}>как использовать гайдлайн?<br/> спросите у нас</h6>
           <p className={styles.text_p}>Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение
             нашей деятельности позволяет оценить значение позиций, занимаемых участниками в отношении поставленных

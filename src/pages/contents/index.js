@@ -676,8 +676,6 @@ const LogoPage = () => {
 
       <div className={clsx(styles.content, styles.content_gray)}>
         <div className={styles.designed}>
-          designed by<br />
-          appazov branding agency
         </div>
         {data.map(({ component: Component, ...props }, index) => (
           <Section id={props.path}
