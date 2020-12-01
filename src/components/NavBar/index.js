@@ -276,6 +276,8 @@ const data = [{
 }, {
   title: 'экстерьер',
   number: '06',
+  path: '/exterior/index.html',
+  redirect: true,
   child: []
 }, {
   title: 'интерьер',
@@ -299,7 +301,7 @@ const NavBar = () => {
                 headerClass={styles.accordion_nav_bar_header}
                 showArrow={false}
                 header={
-                  <a href={'#' + menu.path}>
+                  <a href={menu.redirect ? menu.path : '#' + menu.path}>
                     <CollapseHeader title={menu.title} number={menu.number}/>
                   </a>
                 }>
