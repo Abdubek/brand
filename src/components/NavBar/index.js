@@ -272,6 +272,8 @@ const data = [{
 }, {
   title: 'благоустройство',
   number: '05',
+  path: '/improvement/index.html',
+  redirect: true,
   child: []
 }, {
   title: 'экстерьер',
