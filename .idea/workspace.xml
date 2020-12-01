@@ -2,71 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/improvement/base.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg1f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg2f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bg9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bgb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bgc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bgd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/bgf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/f1.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/f2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/f3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/f4.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/f5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/fancy.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/improvement/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Attainment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Best.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Fire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Hall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Hall2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Hall3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Materials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Pdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Schedule2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/navigation/Stairs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/exterior/compatibility.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/exterior/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/exterior/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/exterior/theViewer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/improvement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/improvement/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contents/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,25 +46,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/improvement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sections/navigation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/improvement" />
-      <recent name="$PROJECT_DIR$/public/interior" />
-      <recent name="$PROJECT_DIR$/public/exterior" />
-      <recent name="$PROJECT_DIR$/src/sections/navigation" />
-      <recent name="$PROJECT_DIR$/public/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/sections/logo" />
       <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sections/navigation" />
+      <recent name="$PROJECT_DIR$/public/improvement" />
+      <recent name="$PROJECT_DIR$/public/interior" />
+      <recent name="$PROJECT_DIR$/public/exterior" />
+      <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -168,7 +119,8 @@
       <workItem from="1606726024364" duration="2157000" />
       <workItem from="1606733821839" duration="9304000" />
       <workItem from="1606770357434" duration="3216000" />
-      <workItem from="1606822406165" duration="4088000" />
+      <workItem from="1606822406165" duration="4311000" />
+      <workItem from="1606846935235" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
@@ -282,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606831275616</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add improvement">
+      <created>1606833217271</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606833217271</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,48 +256,49 @@
     <MESSAGE value="add exterior" />
     <MESSAGE value="add interior" />
     <MESSAGE value="add interior2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add interior2" />
+    <MESSAGE value="add improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="add improvement" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606831273443">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606833216810">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746337101" />
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606831273443" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606833216810" />
     <state x="417" y="100" key="CommitChangelistDialog2/0.23.1680.943@0.23.1680.943" timestamp="1606823301836" />
-    <state width="1659" height="196" key="GridCell.Tab.0.bottom" timestamp="1606823268811">
+    <state width="1659" height="196" key="GridCell.Tab.0.bottom" timestamp="1606833423461">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="371" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606748497490" />
-    <state width="1659" height="196" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606823268811" />
+    <state width="1659" height="196" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606833423461" />
     <state width="1659" height="332" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1604254996037" />
-    <state width="1659" height="196" key="GridCell.Tab.0.center" timestamp="1606823268809">
+    <state width="1659" height="196" key="GridCell.Tab.0.center" timestamp="1606833423460">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="371" key="GridCell.Tab.0.center/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606748497488" />
-    <state width="1659" height="196" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606823268809" />
+    <state width="1659" height="196" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606833423460" />
     <state width="1659" height="332" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1604254996036" />
-    <state width="1659" height="196" key="GridCell.Tab.0.left" timestamp="1606823268809">
+    <state width="1659" height="196" key="GridCell.Tab.0.left" timestamp="1606833423460">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="371" key="GridCell.Tab.0.left/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606748497488" />
-    <state width="1659" height="196" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606823268809" />
+    <state width="1659" height="196" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606833423460" />
     <state width="1659" height="332" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1604254996035" />
-    <state width="1659" height="196" key="GridCell.Tab.0.right" timestamp="1606823268810">
+    <state width="1659" height="196" key="GridCell.Tab.0.right" timestamp="1606833423460">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="371" key="GridCell.Tab.0.right/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606748497489" />
-    <state width="1659" height="196" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606823268810" />
+    <state width="1659" height="196" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606833423460" />
     <state width="1659" height="332" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1604254996036" />
     <state x="341" y="164" width="997" height="886" key="SettingsEditor" timestamp="1604565250184">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606831277941">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606833223827">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746487806" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606831277941" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606833223827" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943/-1920.-570.1920.1057@0.23.1680.943" timestamp="1606741776746" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1606822821326" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606412210593">

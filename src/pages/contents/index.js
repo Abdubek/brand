@@ -100,6 +100,19 @@ import LocationComp from "../../sections/navigation/Location";
 import Plate from "../../sections/navigation/Plate";
 import Plate2 from "../../sections/navigation/Plate2";
 import Plate3 from "../../sections/navigation/Plate3";
+import Hall from "../../sections/navigation/Hall";
+import Hall2 from "../../sections/navigation/Hall2";
+import Hall3 from "../../sections/navigation/Hall3";
+import Stairs from "../../sections/navigation/Stairs";
+import Materials from "../../sections/navigation/Materials";
+import Attainment from "../../sections/navigation/Attainment";
+import Best from "../../sections/navigation/Best";
+import Schedule from "../../sections/navigation/Schedule";
+import Education from "../../sections/navigation/Education";
+import Fire from "../../sections/navigation/Fire";
+import About from "../../sections/navigation/About";
+import Pdd from "../../sections/navigation/Pdd";
+import Schedule2 from "../../sections/navigation/Schedule2";
 
 const data = [{
   title: 'что такое логотип?',
@@ -585,6 +598,71 @@ const data = [{
   subtitle: `информационная табличка помещения`,
   path: 'plate',
   component: Plate3
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `холл`,
+  path: 'hall',
+  component: Hall
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `холл`,
+  path: 'hall',
+  component: Hall2
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `холл`,
+  path: 'hall',
+  component: Hall3
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `лестница`,
+  path: 'stairs',
+  component: Stairs
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `материалы`,
+  path: 'materials',
+  component: Materials
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />достижения школы`,
+  path: 'stands',
+  component: Attainment
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />лучшие ученики`,
+  path: 'stands',
+  component: Best
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />расписание обедов`,
+  path: 'stands',
+  component: Schedule
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />воспитательная работа школы`,
+  path: 'stands',
+  component: Education
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />пожарная безопасность`,
+  path: 'stands',
+  component: Fire
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />о школе`,
+  path: 'stands',
+  component: About
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />правила пдд`,
+  path: 'stands',
+  component: Pdd
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `стенды<br />расписание`,
+  path: 'stands',
+  component: Schedule2
 }]
 const LogoPage = () => {
   return (
