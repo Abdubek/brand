@@ -2,68 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/exterior/base.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg1f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg2f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bg9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bgb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bgc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bgd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/bgf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/compatibility.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/f1.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/f2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/f3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/f4.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/f5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/fancy.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/exterior/theViewer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/base.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg1f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg2f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg3f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg4f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg5f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg6f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bg9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bgb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bgc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bgd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/bgf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/compatibility.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/f1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/f2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/f3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/f4.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/f5.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/f6.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/fancy.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/interior/theViewer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +175,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/exterior" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/interior" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -101,6 +183,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/interior" />
       <recent name="$PROJECT_DIR$/public/exterior" />
       <recent name="$PROJECT_DIR$/src/sections/navigation" />
       <recent name="$PROJECT_DIR$/public/img" />
@@ -165,7 +248,7 @@
       <workItem from="1606726024364" duration="2157000" />
       <workItem from="1606733821839" duration="9304000" />
       <workItem from="1606770357434" duration="3216000" />
-      <workItem from="1606822406165" duration="368000" />
+      <workItem from="1606822406165" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
@@ -258,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606822425843</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add exterior">
+      <created>1606822818913</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606822818913</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,14 +360,15 @@
     <MESSAGE value="about" />
     <MESSAGE value="refactor" />
     <MESSAGE value="add sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sections" />
+    <MESSAGE value="add exterior" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exterior" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606822425569">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1606822818617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746337101" />
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606822425569" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606822818617" />
     <state width="1659" height="371" key="GridCell.Tab.0.bottom" timestamp="1606808334899">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -306,13 +397,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606822431945">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606822821326">
+      <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746487806" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606822431945" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943/-1920.-570.1920.1057@0.23.1680.943" timestamp="1606741776746" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1606504078565" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1606822821326" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606412210593">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

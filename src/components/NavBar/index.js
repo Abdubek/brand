@@ -282,6 +282,8 @@ const data = [{
 }, {
   title: 'интерьер',
   number: '07',
+  path: '/interior/index.html',
+  redirect: true,
   child: []
 }]
 
