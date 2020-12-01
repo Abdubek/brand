@@ -5,6 +5,7 @@ import Collapse from "rc-collapse";
 const data = [{
   title: 'логотип',
   number: '02',
+  path: 'what-is-a-logo',
   child: [{
     title: 'что такое логотип',
     path: 'what-is-a-logo',
@@ -67,7 +68,7 @@ const data = [{
 }, {
   title: 'фирменный стиль',
   number: '03',
-  path: 'brand-style',
+  path: 'business-documentation',
   child: [{
     title: 'деловая документация',
     path: 'business-documentation',
@@ -202,8 +203,72 @@ const data = [{
   }]
 }, {
   title: 'навигация',
+  path: 'navigation',
   number: '04',
-  child: []
+  child: [{
+    title: 'внешняя навигация',
+    path: 'signboard'
+  }, {
+    title: 'вывеска',
+    path: 'signboard',
+    child: [{
+      title: 'вариант 1',
+      path: 'signboard-1'
+    }, {
+      title: 'вариант 2',
+      path: 'signboard-2'
+    }]
+  }, {
+    title: 'флагштоки',
+    path: 'flagpoles'
+  }, {
+    title: 'стелла',
+    path: 'stella',
+    child: [{
+      title: 'вариант 1',
+      path: 'stella-1'
+    }, {
+      title: 'вариант 2',
+      path: 'stella-2'
+    }]
+  }, {
+    title: 'внутренняя навигация',
+    path: 'internal-navigation-pointers'
+  }, {
+    title: 'указатели',
+    path: 'internal-navigation-pointers',
+    child: [{
+      title: 'выбор цветов',
+      path: 'choice-of-colors'
+    }, {
+      title: 'размеры',
+      path: 'dimensions'
+    }, {
+      title: 'шрифт',
+      path: 'font'
+    }, {
+      title: 'пиктограммы',
+      path: 'pictograms'
+    }, {
+      title: 'расположение',
+      path: 'location'
+    }, {
+      title: 'табличка',
+      path: 'plate'
+    }, {
+      title: 'холл',
+      path: 'hall'
+    }, {
+      title: 'лестница',
+      path: 'stairs'
+    }, {
+      title: 'материалы',
+      path: 'materials'
+    }]
+  }, {
+    title: 'стенды',
+    path: 'stands'
+  }]
 }, {
   title: 'благоустройство',
   number: '05',
@@ -233,7 +298,11 @@ const NavBar = () => {
               <Collapse.Panel
                 headerClass={styles.accordion_nav_bar_header}
                 showArrow={false}
-                header={<CollapseHeader title={menu.title} number={menu.number}/>}>
+                header={
+                  <a href={'#' + menu.path}>
+                    <CollapseHeader title={menu.title} number={menu.number}/>
+                  </a>
+                }>
                 <Collapse accordion={true}
                           className={styles.accordion_nav_bar}>
                   {menu.child.map((submenu, index) => {

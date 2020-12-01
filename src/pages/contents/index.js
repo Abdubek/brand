@@ -88,6 +88,18 @@ import SteleWithInteractiveScreen from "../../sections/navigation/SteleWithInter
 import SteleWithInteractiveScreen2 from "../../sections/navigation/SteleWithInteractiveScreen2";
 import SteleWithInteractiveScreen3 from "../../sections/navigation/SteleWithInteractiveScreen3";
 import Pointer from "../../sections/navigation/Pointer";
+import WhatIs from "../../sections/navigation/WhatIs";
+import Pointer2 from "../../sections/navigation/Pointer2";
+import ColorChoice from "../../sections/navigation/ColorChoice";
+import ColorChoice2 from "../../sections/navigation/ColorChoice2";
+import Size from "../../sections/navigation/Size";
+import Font from "../../sections/navigation/Font";
+import Font2 from "../../sections/navigation/Font2";
+import Pictograms from "../../sections/navigation/Pictograms";
+import LocationComp from "../../sections/navigation/Location";
+import Plate from "../../sections/navigation/Plate";
+import Plate2 from "../../sections/navigation/Plate2";
+import Plate3 from "../../sections/navigation/Plate3";
 
 const data = [{
   title: 'что такое логотип?',
@@ -425,95 +437,154 @@ const data = [{
   path: 'social-networks-2',
   component: Story
 }, {
+  title: 'что такое навигация',
+  path: 'navigation',
+  component: WhatIs
+}, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />вариант 1. фибробетонный козырек`,
-  path: 'souvenir-products-1',
+  path: 'signboard-1',
   component: Signboard
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />вариант 1. фибробетонный козырек`,
-  path: 'souvenir-products-1',
+  path: 'signboard-1',
   component: Signboard2
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />объемно-световая вывеска`,
-  path: 'souvenir-products-1',
+  path: 'signboard-1',
   component: Signboard3
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />объемно-световая вывеска`,
-  path: 'souvenir-products-1',
+  path: 'signboard-1',
   component: Signboard4
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />  размещение паспорта школы`,
-  path: 'souvenir-products-1',
+  path: 'signboard-1',
   component: Signboard5
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />вариант 2 объемная световая вывеска`,
-  path: 'souvenir-products-1',
+  path: 'signboard-2',
   component: Signboard6
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />вариант 2 объемная световая вывеска`,
-  path: 'souvenir-products-1',
+  path: 'signboard-2',
   component: Signboard7
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />состав конструкции`,
-  path: 'souvenir-products-1',
+  path: 'signboard-2',
   component: Signboard8
 }, {
   title: 'внешняя навигация',
   subtitle: `вывеска<br />  размещение паспорта школы`,
-  path: 'souvenir-products-1',
+  path: 'signboard-2',
   component: Signboard5
 }, {
   title: 'внешняя навигация',
   subtitle: `флагштоки`,
-  path: 'souvenir-products-1',
+  path: 'flagpoles',
   component: Flagpoles
 }, {
   title: 'внешняя навигация',
   subtitle: `флагштоки`,
-  path: 'souvenir-products-1',
+  path: 'flagpoles',
   component: Flagpoles1
 }, {
   title: 'внешняя навигация',
   subtitle: `стелла с часами <br />вариант 1`,
-  path: 'souvenir-products-1',
+  path: 'stella-1',
   component: SteleWithClock
 }, {
   title: 'внешняя навигация',
   subtitle: `стелла с часами <br />конструктив`,
-  path: 'souvenir-products-1',
+  path: 'stella-1',
   component: SteleWithClock2
 }, {
   title: 'внешняя навигация',
   subtitle: `стелла с часами <br />конструктив светового логотипа`,
-  path: 'souvenir-products-1',
+  path: 'stella-1',
   component: SteleWithClock3
 }, {
   title: 'внешняя навигация',
   subtitle: `стелла с интерактивным экраном<br />вариант 2`,
-  path: 'souvenir-products-1',
+  path: 'stella-2',
   component: SteleWithInteractiveScreen
 }, {
   title: 'внешняя навигация',
   subtitle: `стелла с интерактивным экраном<br />конструктив`,
-  path: 'souvenir-products-1',
+  path: 'stella-2',
   component: SteleWithInteractiveScreen2
 }, {
   title: 'внешняя навигация',
   subtitle: `стелла с интерактивным экраном<br />конструктив светового логотипа`,
-  path: 'souvenir-products-1',
+  path: 'stella-2',
   component: SteleWithInteractiveScreen3
 }, {
   title: 'внутренняя навигация',
   subtitle: `указатели`,
-  path: 'souvenir-products-1',
+  path: 'internal-navigation-pointers',
   component: Pointer
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `указатели`,
+  path: 'internal-navigation-pointers',
+  component: Pointer2
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `принцип выбора цветов навигации`,
+  path: 'choice-of-colors',
+  component: ColorChoice
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `принцип выбора цветов навигации`,
+  path: 'choice-of-colors',
+  component: ColorChoice2
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `размер`,
+  path: 'dimensions',
+  component: Size
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `шрифт`,
+  path: 'font',
+  component: Font
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `шрифт`,
+  path: 'font',
+  component: Font2
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `пиктограммы`,
+  path: 'pictograms',
+  component: Pictograms
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `взаимное расположение носителей`,
+  path: 'location',
+  component: LocationComp
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `информационная табличка помещения`,
+  path: 'plate',
+  component: Plate
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `информационная табличка помещения`,
+  path: 'plate',
+  component: Plate2
+}, {
+  title: 'внутренняя навигация',
+  subtitle: `информационная табличка помещения`,
+  path: 'plate',
+  component: Plate3
 }]
 const LogoPage = () => {
   return (
