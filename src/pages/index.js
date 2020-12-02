@@ -196,74 +196,88 @@ export default function Home() {
         <div id='contents' className={styles.content}>
           <h6 className={styles.text_span}>содержание</h6>
           <div className={styles.content_block}>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_img}>
-                <img src="/img/ph1.png" alt="" />
-              </div>
-              <span>логотип</span>
-              <p className={styles.text_p}>мы сделали так чтобы
-                логотип можно было собирать
-                как конструктор</p>
-            </div>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_img}>
-                <img src="/img/ph2.png" alt="" />
-              </div>
-              <span>логотип</span>
-              <p className={styles.text_p}>мы сделали так чтобы
-                логотип можно было собирать
-                как конструктор</p>
-            </div>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_img}>
-                <img src="/img/ph3.png" alt="" />
-              </div>
-              <span>логотип</span>
-              <p className={styles.text_p}>мы сделали так чтобы
-                логотип можно было собирать
-                как конструктор</p>
-            </div>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_img}>
-                <img src="/img/ph4.png" alt="" />
-              </div>
-              <span>логотип</span>
-              <p className={styles.text_p}>мы сделали так чтобы
-                логотип можно было собирать
-                как конструктор</p>
-            </div>
+            <Link href='/contents'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_img}>
+                  <img src="/img/ph1.png" alt="" />
+                </div>
+                <span>логотип</span>
+                <p className={styles.text_p}>мы сделали так чтобы
+                  логотип можно было собирать
+                  как конструктор</p>
+              </a>
+            </Link>
+            <Link href='/contents#business-documentation'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_img}>
+                  <img src="/img/ph2.png" alt="" />
+                </div>
+                <span>фирменный стиль</span>
+                <p className={styles.text_p}>мы сделали так чтобы
+                  логотип можно было собирать
+                  как конструктор</p>
+              </a>
+            </Link>
+            <Link href='/contents#navigation'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_img}>
+                  <img src="/img/ph3.png" alt="" />
+                </div>
+                <span>навигация</span>
+                <p className={styles.text_p}>мы сделали так чтобы
+                  логотип можно было собирать
+                  как конструктор</p>
+              </a>
+            </Link>
+            <Link href='/improvement/index.html'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_img}>
+                  <img src="/img/ph4.png" alt="" />
+                </div>
+                <span>благоустройство</span>
+                <p className={styles.text_p}>мы сделали так чтобы
+                  логотип можно было собирать
+                  как конструктор</p>
+              </a>
+            </Link>
           </div>
           <div className={clsx(styles.content_block, styles.cont_bl)}>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_img}>
-                <img src="/img/ph5.png" alt="" />
-              </div>
-              <span>логотип</span>
-              <p className={styles.text_p}>мы сделали так чтобы
-                логотип можно было собирать
-                как конструктор</p>
-            </div>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_img}>
-                <img src="/img/ph6.png" alt="" />
-              </div>
-              <span>логотип</span>
-              <p className={styles.text_p}>мы сделали так чтобы
-                логотип можно было собирать
-                как конструктор</p>
-            </div>
-            <div className={styles.blocks}>
-              <div className={styles.blocks_text}>
-                <span>весь брендбук</span>
-                <p className={styles.text_p}>мы сделали так чтобы логотип можно было собирать
+            <Link href='/exterior/index.html'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_img}>
+                  <img src="/img/ph5.png" alt="" />
+                </div>
+                <span>экстерьер</span>
+                <p className={styles.text_p}>мы сделали так чтобы
+                  логотип можно было собирать
                   как конструктор</p>
-              </div>
-              <img src="/img/flag.png" alt="" />
-            </div>
+              </a>
+            </Link>
+            <Link href='/interior/index.html'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_img}>
+                  <img src="/img/ph6.png" alt="" />
+                </div>
+                <span>интерьер</span>
+                <p className={styles.text_p}>мы сделали так чтобы
+                  логотип можно было собирать
+                  как конструктор</p>
+              </a>
+            </Link>
+            <Link href='/contents'>
+              <a className={styles.blocks}>
+                <div className={styles.blocks_text}>
+                  <span>весь брендбук</span>
+                  <p className={styles.text_p}>мы сделали так чтобы логотип можно было собирать
+                    как конструктор</p>
+                </div>
+                <img src="/img/flag.png" alt="" />
+              </a>
+            </Link>
           </div>
         </div>
 
-        <div className={styles.embody}>
+        {/*<div className={styles.embody}>
           <h6 className={styles.text_span}>и вы тоже можете<br/>воплотить это в жизнь</h6>
           <div className={styles.embody_block}>
             <div className={styles.embody_cont}>
@@ -304,6 +318,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        */}
 
         <div id='contacts' className={styles.question}>
           <h6 className={styles.text_span}>как использовать гайдлайн?<br/> спросите у нас</h6>
