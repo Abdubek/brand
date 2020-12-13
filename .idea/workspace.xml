@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/exterior/base.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/exterior/base.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/exterior/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/exterior/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/exterior/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/exterior/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/improvement/base.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/improvement/base.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/improvement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/improvement/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/improvement/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/improvement/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/interior/base.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/interior/base.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/interior/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/interior/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/interior/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/interior/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/interior2/base.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/interior2/base.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/interior2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/interior2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/interior2/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/interior2/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +119,7 @@
       <workItem from="1606822406165" duration="4311000" />
       <workItem from="1606846935235" duration="3435000" />
       <workItem from="1606887798305" duration="447000" />
-      <workItem from="1607848187689" duration="1903000" />
+      <workItem from="1607848187689" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>

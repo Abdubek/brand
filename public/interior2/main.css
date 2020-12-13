@@ -5,6 +5,42 @@
 @font-face{font-family:ff4;src:url(f4.woff)format("woff");}.ff4{font-family:ff4;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff5;src:url(f5.woff)format("woff");}.ff5{font-family:ff5;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff6;src:url(f6.woff)format("woff");}.ff6{font-family:ff6;line-height:0.700000;font-style:normal;font-weight:normal;visibility:visible;}
+
+body {
+    margin: 0;
+}
+.menu {
+    position: relative;
+    z-index: 10;
+    width: 365px;
+    height: 100vh;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.menu ul {
+    font-family:sans-serif;
+    list-style-type: none;
+    padding-left: 80px;
+    margin: 0;
+}
+.menu li {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0E2C42;
+    margin-bottom: 20px;
+}
+.menu span {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #A8A8A7;
+    margin-right: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #13293e;
+}
 .m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
 .v0{vertical-align:0.000000px;}
 .ls55{letter-spacing:-4.320000px;}
@@ -1082,12 +1118,12 @@
 .h5{height:38.181818px;}
 .h4{height:68.727273px;}
 .h3{height:173.040000px;}
-.h0{height:970.283px;}
+.h0{height:940.283px;}
 .h1{height:612.500000px;}
 .w0{
-    width: 858.898000px;
+    width: 838.898px;
     margin: auto;
-    transform: scale(1.27);
+    transform: scale(1.25);
 }
 .w1{width:859.000000px;}
 .x0{left:0.000000px;}
