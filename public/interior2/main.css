@@ -1082,9 +1082,13 @@
 .h5{height:38.181818px;}
 .h4{height:68.727273px;}
 .h3{height:173.040000px;}
-.h0{height:612.283000px;}
+.h0{height:970.283px;}
 .h1{height:612.500000px;}
-.w0{width:858.898000px;}
+.w0{
+    width: 858.898000px;
+    margin: auto;
+    transform: scale(1.27);
+}
 .w1{width:859.000000px;}
 .x0{left:0.000000px;}
 .x1{left:65.083000px;}

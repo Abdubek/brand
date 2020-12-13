@@ -1102,13 +1102,17 @@
 .h1d{height:395.869000px;}
 .h22{height:398.716000px;}
 .h1{height:484.000000px;}
-.h0{height:612.283000px;}
+.h0{height:970.283px;}
 .h7{height:612.500000px;}
 .w4{width:281.246000px;}
 .w3{width:391.233000px;}
 .w1{width:500.500000px;}
 .w5{width:526.031000px;}
-.w0{width:858.898000px;}
+.w0{
+    width: 858.898000px;
+    margin: auto;
+    transform: scale(1.27);
+}
 .w2{width:859.000000px;}
 .x3{left:0.000000px;}
 .x40{left:2.200800px;}
