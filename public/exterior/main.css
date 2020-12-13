@@ -543,10 +543,14 @@
 .h5{height:173.040000px;}
 .ha{height:370.000000px;}
 .h1{height:382.500000px;}
-.h0{height:612.283000px;}
+.h0{height:970.283px;}
 .h7{height:612.500000px;}
 .w1{width:500.500000px;}
-.w0{width:858.898000px;margin: auto;}
+.w0{
+    width: 858.898000px;
+    margin: auto;
+    transform: scale(1.27);
+}
 .w2{width:859.000000px;}
 .x4{left:0.000000px;}
 .x1{left:65.082500px;}
