@@ -157,3 +157,15 @@ a {
 .rc-collapse-content > .rc-collapse-content-box {
   margin-bottom: 0 !important;
 }
+.swiper-container {
+  padding: 0 0 30px 0 !important;
+}
+.swiper-pagination-bullet {
+  width: 50px !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+}

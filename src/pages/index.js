@@ -3,6 +3,10 @@ import styles from '../styles/Home.module.css'
 import clsx from "clsx";
 import Link from "next/link";
 import {useState} from "react";
+import SwiperCore, { Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+SwiperCore.use([Pagination])
 
 export default function Home() {
   const [criteria, setCriteria] = useState(1)
@@ -40,7 +44,17 @@ export default function Home() {
               <h1>новый взгляд на образовательное<br/> пространство</h1>
               <Link href='/contents'><a className={styles.btn_pav} href="#">посмотреть брендбук</a></Link>
             </div>
-            <div className={styles.header_img}><img src="/img/preview.png" alt="" /></div>
+            <div className={styles.header_img}>
+              <Swiper
+                spaceBetween={10}
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+              >
+                <SwiperSlide><img src="/img/preview.png" alt="" /></SwiperSlide>
+                <SwiperSlide><img src="/img/preview2.png" alt="" /></SwiperSlide>
+                <SwiperSlide><img src="/img/preview3.png" alt="" /></SwiperSlide>
+              </Swiper>
+            </div>
           </div>
         </div>
       </div>
@@ -48,7 +62,6 @@ export default function Home() {
       <div id='welcome' className={styles.container}>
         <div className={clsx(styles.word_akim, styles.word)}>
           <div>
-            <h6 className={styles.text_span}>приветственное слово акима области</h6>
             <p className={styles.text_p}>— «Сегодняшние изменения в школах — не просто плановый ремонт зданий, а обновленная
               система по оснащению организаций образования. Главным приоритетом в своей работе я обозначил развитие школ
               — так появился проект «Заманауи мектеп», что переводится как «Современная школа». Какой должна быть
@@ -82,7 +95,6 @@ export default function Home() {
               </div>
           </div>
           <div className={styles.word_lead_text}>
-            <h6 className={styles.text_span}>слово <br/>руководителя </h6>
             <p className={styles.text_p}>– «Заманауи мектеп» – это не просто красивая архитектура и фасады. Это в первую
               очередь безопасность детей, условия для обучения школьников и преподавания. Также нельзя забывать, что
               учитель должен работать в комфортных условиях. Все это предусмотрено в новой программе».
@@ -118,11 +130,11 @@ export default function Home() {
           <div className={styles.modern_block}>
             <div className={styles.modern_block_text}>
               <p>
-                <span className={clsx(criteria === 1 && styles.modern_block_text_active)} onClick={() => setCriteria(1)}>открытость,</span><br/>
-                <span className={clsx(criteria === 2 && styles.modern_block_text_active)}  onClick={() => setCriteria(2)}>безопасность и комфорт,</span><br/>
-                <span className={clsx(criteria === 3 && styles.modern_block_text_active)}  onClick={() => setCriteria(3)}>просторность,</span><br/>
-                <span className={clsx(criteria === 4 && styles.modern_block_text_active)}  onClick={() => setCriteria(4)}>мобильность,</span><br/>
-                <span className={clsx(criteria === 5 && styles.modern_block_text_active)}  onClick={() => setCriteria(5)}>креативность.</span><br/>
+                <span className={clsx(criteria === 1 && styles.modern_block_text_active)} onClick={() => setCriteria(1)}>открытость</span><br/>
+                <span className={clsx(criteria === 2 && styles.modern_block_text_active)}  onClick={() => setCriteria(2)}>безопасность и комфорт</span><br/>
+                <span className={clsx(criteria === 3 && styles.modern_block_text_active)}  onClick={() => setCriteria(3)}>просторность</span><br/>
+                <span className={clsx(criteria === 4 && styles.modern_block_text_active)}  onClick={() => setCriteria(4)}>мобильность</span><br/>
+                <span className={clsx(criteria === 5 && styles.modern_block_text_active)}  onClick={() => setCriteria(5)}>креативность</span><br/>
               </p>
             </div>
             {criteria === 1 &&

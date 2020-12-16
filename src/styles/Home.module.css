@@ -84,6 +84,9 @@
     line-height: 72px;
     color: #FFFFFF;
 }
+.header_img {
+    width: 400px;
+}
 .header_img img{
     width: 400px;
 }
