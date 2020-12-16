@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/preview2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/preview3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,7 @@
       <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -88,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -123,7 +120,7 @@
       <workItem from="1606887798305" duration="447000" />
       <workItem from="1607848187689" duration="5267000" />
       <workItem from="1607929937135" duration="111000" />
-      <workItem from="1608111276362" duration="4881000" />
+      <workItem from="1608111276362" duration="5074000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
@@ -300,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608116852111</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add images">
+      <created>1608141299901</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608141299901</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,14 +326,15 @@
     <MESSAGE value="fix main page" />
     <MESSAGE value="add swiper" />
     <MESSAGE value="change texts" />
-    <option name="LAST_COMMIT_MESSAGE" value="change texts" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1608116851965">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1608141299734">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746337101" />
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1608116851965" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1608141299734" />
     <state x="417" y="100" key="CommitChangelistDialog2/0.23.1680.943@0.23.1680.943" timestamp="1608116087172" />
     <state width="1659" height="196" key="GridCell.Tab.0.bottom" timestamp="1608141197313">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -359,11 +364,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608117882081">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608141302792">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746487806" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608117882081" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608141302792" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943/-1920.-570.1920.1057@0.23.1680.943" timestamp="1606741776746" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1608116089357" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606412210593">
