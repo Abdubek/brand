@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="" />
+    <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/logo/WhatIsLogo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/logo/WhatIsLogo.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +123,7 @@
       <workItem from="1607848187689" duration="5267000" />
       <workItem from="1607929937135" duration="111000" />
       <workItem from="1608111276362" duration="5198000" />
+      <workItem from="1608146994278" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
