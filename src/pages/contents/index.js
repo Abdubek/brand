@@ -669,8 +669,9 @@ const LogoPage = () => {
   return (
     <div className={styles.layout}>
       <Head>
-        <title>School Brandbook</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>брендбук школ павлодарской области
+</title>
+        <link rel="icon" href="/public/favicon.ico" />
       </Head>
 
       <NavBar />
