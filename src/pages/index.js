@@ -215,9 +215,9 @@ export default function Home() {
                   <img src="/img/ph1.png" alt="" />
                 </div>
                 <span>логотип</span>
-                <p className={styles.text_p}>мы сделали так чтобы
-                  логотип можно было собирать
-                  как конструктор</p>
+                <p className={styles.text_p}>
+                  дает возможность выделится, идентифицироваться на фоне остальных, показав свои преимущества, специализацию.
+                </p>
               </a>
             </Link>
             <Link href='/contents#business-documentation'>
@@ -226,9 +226,9 @@ export default function Home() {
                   <img src="/img/ph2.png" alt="" />
                 </div>
                 <span>фирменный стиль</span>
-                <p className={styles.text_p}>мы сделали так чтобы
-                  логотип можно было собирать
-                  как конструктор</p>
+                <p className={styles.text_p}>
+                  деловая, сувенирная и представительская продукция, одежда и аксессуары
+                </p>
               </a>
             </Link>
             <Link href='/contents#navigation'>
@@ -237,9 +237,9 @@ export default function Home() {
                   <img src="/img/ph3.png" alt="" />
                 </div>
                 <span>навигация</span>
-                <p className={styles.text_p}>мы сделали так чтобы
-                  логотип можно было собирать
-                  как конструктор</p>
+                <p className={styles.text_p}>
+                  многоуровневая информационная система школы. внешняя и внутренняя навигация.
+                </p>
               </a>
             </Link>
             <Link href='/improvement/index.html'>
@@ -248,9 +248,9 @@ export default function Home() {
                   <img src="/img/ph4.png" alt="" />
                 </div>
                 <span>благоустройство</span>
-                <p className={styles.text_p}>мы сделали так чтобы
-                  логотип можно было собирать
-                  как конструктор</p>
+                <p className={styles.text_p}>
+                  требования к реализации решений благоустровайства  помещений
+                </p>
               </a>
             </Link>
           </div>
@@ -261,9 +261,9 @@ export default function Home() {
                   <img src="/img/ph5.png" alt="" />
                 </div>
                 <span>экстерьер</span>
-                <p className={styles.text_p}>мы сделали так чтобы
-                  логотип можно было собирать
-                  как конструктор</p>
+                <p className={styles.text_p}>
+                  требования к реализации экстерьерных решений. cхемы фасадов, материалы, конструктив
+                </p>
               </a>
             </Link>
             <Link href='/interior/index.html'>
@@ -272,9 +272,9 @@ export default function Home() {
                   <img src="/img/ph6.png" alt="" />
                 </div>
                 <span>интерьер</span>
-                <p className={styles.text_p}>мы сделали так чтобы
-                  логотип можно было собирать
-                  как конструктор</p>
+                <p className={styles.text_p}>
+                  требования к реализации интерьерных решений, материалов, мебели.
+                </p>
               </a>
             </Link>
           </div>

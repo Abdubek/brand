@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19c903fa-745d-4d8e-9a7e-2e471c5222ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +110,7 @@
       <workItem from="1606887798305" duration="447000" />
       <workItem from="1607848187689" duration="5267000" />
       <workItem from="1607929937135" duration="111000" />
-      <workItem from="1608111276362" duration="2951000" />
+      <workItem from="1608111276362" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="add sections">
       <created>1604528229981</created>
@@ -278,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608113013709</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add swiper">
+      <created>1608116087361</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608116087361</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,15 +300,16 @@
     <MESSAGE value="fix styles" />
     <MESSAGE value="fix menu numbers" />
     <MESSAGE value="fix main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix main page" />
+    <MESSAGE value="add swiper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add swiper" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1608113013554">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1608116087172">
+      <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746337101" />
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1608113013554" />
-    <state x="417" y="100" key="CommitChangelistDialog2/0.23.1680.943@0.23.1680.943" timestamp="1606823301836" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.23.1680.943@0.23.1680.943" timestamp="1608116087172" />
     <state width="1659" height="196" key="GridCell.Tab.0.bottom" timestamp="1608113336552">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -335,13 +338,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" width="997" height="886" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604565250184" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608113015288">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608116089357">
+      <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.-593.1920.1080@0.0.1680.1050" timestamp="1606746487806" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608113015288" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943/-1920.-570.1920.1057@0.23.1680.943" timestamp="1606741776746" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1606822821326" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1608116089357" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606412210593">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
