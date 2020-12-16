@@ -20,6 +20,7 @@ import BrandedFont2 from "../../sections/logo/BrandedFont2";
 import BrandedElements from "../../sections/logo/BrandedElements";
 import BrandedElements2 from "../../sections/logo/BrandedElements2";
 import IllegalUse from "../../sections/logo/IllegalUse";
+import IllegalUse from "../../sections/logo/IllegalUse2";
 import BrandExample from "../../sections/brand/Example";
 import BrandExample2 from "../../sections/brand/Example2";
 import BrandExample3 from "../../sections/brand/Example3";
