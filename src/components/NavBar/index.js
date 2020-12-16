@@ -64,6 +64,12 @@ const data = [{
       title: 'примеры',
       path: 'illegal-use-1',
     }]
+    }, {
+    title: 'недопустимое использование',
+    child: [{
+      title: 'примеры',
+      path: 'illegal-use-2',
+    }]
   }]
 }, {
   title: 'фирменный стиль',
