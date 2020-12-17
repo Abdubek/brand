@@ -5,7 +5,7 @@ const Flagpole = () => {
   return (
     <div className='space-between'>
       <div />
-      <Image src='/img60.png' width={1000} height={600}/>
+      <Image src='/img60.png' width={1024} height={681}/>
     </div>
   );
 };
