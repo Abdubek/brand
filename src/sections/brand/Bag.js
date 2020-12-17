@@ -10,7 +10,7 @@ const Bag = () => {
         <span className='text-gray'>печать</span><br/>
         шелкография<br/>
       </div>
-      <Image src='/img72.png' width={714} height={713}/>
+      <Image src='/img72.png' width={823} height={713}/>
       <div />
     </div>
   );
