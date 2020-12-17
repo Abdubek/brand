@@ -15,7 +15,7 @@ const EcoBag = () => {
         шелкография<br/>
         прямая печать<br/>
       </div>
-      <Image src='/img69.png' width={928} height={600}/>
+      <Image src='/img69.png' width={823} height={713}/>
       <div />
     </div>
   );
