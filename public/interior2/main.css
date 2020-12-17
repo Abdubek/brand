@@ -6,6 +6,23 @@
 @font-face{font-family:ff5;src:url(f5.woff)format("woff");}.ff5{font-family:ff5;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff6;src:url(f6.woff)format("woff");}.ff6{font-family:ff6;line-height:0.700000;font-style:normal;font-weight:normal;visibility:visible;}
 
+.accordion-container {
+    padding-left: 40px;
+}
+.accordion-container .ac {
+    border: none;
+}
+.accordion-container .ac .ac-trigger {
+    font-size: 14px;
+    padding: 0 5px;
+    color: #A8A8A7;
+    outline: none;
+}
+.accordion-container .ac .ac-trigger::after {
+    display: none;
+}
+
+
 body {
     margin: 0;
 }
