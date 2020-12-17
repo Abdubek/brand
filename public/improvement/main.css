@@ -40,6 +40,21 @@ body {
     text-decoration: none;
     color: #13293e;
 }
+.accordion-container {
+    padding-left: 40px;
+}
+.accordion-container .ac {
+    border: none;
+}
+.accordion-container .ac .ac-trigger {
+    font-size: 14px;
+    padding: 0 5px;
+    color: #A8A8A7;
+    outline: none;
+}
+.accordion-container .ac .ac-trigger::after {
+    display: none;
+}
 .m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
 .v0{vertical-align:0.000000px;}
 .ls2f{letter-spacing:-10.320000px;}
