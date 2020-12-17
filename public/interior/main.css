@@ -114,9 +114,9 @@ ul.main-menu li i.open {
 .menu li {
     font-weight: 500;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 16px;
     color: #0E2C42;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 .menu span {
     font-weight: 300;
