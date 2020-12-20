@@ -55,6 +55,18 @@ body {
 .accordion-container .ac .ac-trigger::after {
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+ #page-container {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: -400px;
+}
+}
 .m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
 .v0{vertical-align:0.000000px;}
 .ls2f{letter-spacing:-10.320000px;}
