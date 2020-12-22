@@ -4,8 +4,9 @@
 @font-face{font-family:ff3;src:url(f3.woff)format("woff");}.ff3{font-family:ff3;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff4;src:url(f4.woff)format("woff");}.ff4{font-family:ff4;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff5;src:url(f5.woff)format("woff");}.ff5{font-family:ff5;line-height:0.942000;font-style:normal;font-weight:normal;visibility:visible;}
-
+html,
 body {
+    scroll-behavior: smooth;
     margin: 0;
 }
 .menu {
@@ -39,6 +40,46 @@ body {
 .menu a {
     text-decoration: none;
     color: #13293e;
+}
+.accordion-container {
+     padding-left: 40px;
+    padding-top: 10px;
+ }
+.accordion-container .ac {
+    border: none;
+    margin-top: 0;
+}
+.accordion-container .ac .ac-panel {
+    padding-top: 5px;
+}
+.accordion-container .ac .ac-text {
+    padding: 2px 0px 2px 30px !important;
+}
+.accordion-container .ac .ac-trigger {
+    font-size: 16px;
+    padding: 0 5px;
+    color: #A8A8A7;
+    outline: none;
+}
+.accordion-container .ac-header {
+    margin-top: 0;
+}
+.accordion-container .ac-header a {
+    font-size: 14px;
+    padding: 0 5px;
+    color: #A8A8A7;
+    outline: none;
+}
+.accordion-container .ac .ac-trigger::after {
+    display: none;
+}
+.ac-header {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.margin-bottom-5 {
+    margin-bottom: 5px;
 }
 
 .m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
