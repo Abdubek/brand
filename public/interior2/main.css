@@ -1,3 +1,31 @@
+@media (max-width:1440px) {
+
+#page-container {
+    position: absolute;
+    top: 0;
+    left: 307px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: -400px;
+}
+
+}
+
+@media (min-width:414px) {
+
+#page-container {
+    position: absolute;
+    top: 0;
+    left: 407px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: -400px;
+}
+
+}
+
 .ff0{font-family:sans-serif;visibility:hidden;}
 @font-face{font-family:ff1;src:url(f1.woff)format("woff");}.ff1{font-family:ff1;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff2;src:url(f2.woff)format("woff");}.ff2{font-family:ff2;line-height:1.181818;font-style:normal;font-weight:normal;visibility:visible;}
