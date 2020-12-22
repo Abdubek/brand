@@ -1,3 +1,17 @@
+@media (max-width:1440px) {
+
+#page-container {
+    position: absolute;
+    top: 0;
+    left: 307px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: -400px;
+}
+
+}
+
 @media (min-width:414px) {
 
 #page-container {
